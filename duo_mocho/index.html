@@ -1,0 +1,284 @@
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, user-scalable=0" />
+
+        <link rel="stylesheet" type="text/css" href="assets/css/index.css" />
+        <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,400&display=swap");
+    </style>
+
+        <title>DUO MOCHO SELAS</title>
+
+        <script>
+            window.onload = function() {
+                  document.querySelector(".menuMobile").addEventListener("click", function() {
+                      if(document.querySelector(".menu nav ul").style.display == 'flex') {
+                          document.querySelector(".menu nav ul").style.display = 'none';
+                      } else {
+                          document.querySelector(".menu nav ul").style.display = 'flex';
+                      }
+                  });
+              };
+          </script>
+    </head>
+    <body>
+
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html"><img class="img-logo" src="assets/images/logo_equilibrium.jpg.JPG"width="180"height="180"></a>
+                    <!--<p class="texto-logo">DUO MOCHO SELAS</p>-->
+                </div>
+                <div class="menu">
+                    <nav>
+                        <div class="menuMobile">
+                            <div class="mm_line"></div>
+                            <div class="mm_line"></div>
+                            <div class="mm_line"></div>
+                        </div>
+                        <ul>
+                            <li id="home"><a href ="index.html">HOME</a></li>
+                            <li id = "produtos"><a href = "catalogo.html">PRODUTOS</a></li>
+                            <li id="beneficios"><a href = 'beneficios.html'>BENEFÍCIOS</a></li>
+                    <!--    <li><a href=>HOME</a></li>
+                            <li><a href=>HOME</a></li>
+                            <li><a href=>HOME</a></li>  -->
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- BOTAO WHATSAPP-->
+    <div class="buttonzap">
+      <a
+        href="https://api.whatsapp.com/send?phone=5521977433650&"
+        class="icon"
+        target="_blank"
+        ><i class="fab fa-whatsapp"></i
+      ></a>
+      <!-- FIM BOTAO WHATSAPP-->
+    </div>
+        <section id="banner">
+            <div class="container column">
+                <div class="banner-headline">
+                    <h1>Mochos Ergonômicos</h1>
+                    <h2>Mochos que aumentam a produtividade e melhoram sua postura</h2>
+                </div>
+                <div class="banner-options">
+                    <div class="banner1">
+                        <div class="banner-title">Catálogo</div>
+                        <div class="banner-desc">Nesta seção mostramos todos os tipos de mochos disponíveis para escolha do cliente.</div>
+                        <a href="catalogo.html" class="btn-home">Clique aqui!</a>
+                    </div>
+                    <!-- <div class="banner2">
+                        <div class="banner-title">Produtos personalizados</div>
+                        <div class="banner-desc">Veja aqui os produtos que já personalizamos .</div>
+                        <a  href="">Clique aqui!</a>
+                    </div> -->
+                    <div class="banner3">
+                        <div class="banner-title">Entre em contato</div>
+                        <div class="container-dia1">
+                            <div class="contacts">
+                                <div class="contact_info">WhatsApp: <strong>(+55 21) 97743-3650</strong></div>
+                            </div>
+                        </div>
+                        <div class="container-dia2">
+                            <div class="contacts">
+                                <div class="contact_info">Instagram: <a href="https://www.instagram.com/duomochosela/" target="_blank">@Duomochoselas</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="geral">
+            <div id = "container">
+                <section>
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text"><p id = 'p_temp'>Últimos Trabalhos</p><p id = 'p_temp2'></p></div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body flex">
+                            <article>
+                                <a href = "">
+                                    <div class="news_data">
+                                        <div class="news_posted_at">Últimos Modelos</div>
+                                        <div class="news_comments">1</div>
+                                    </div>
+                                    <div class="news_thumb">
+                                        <img src="assets/images/dtmarroti.jpeg"/>
+                                    </div>
+                                    <div class="news_title">
+                                        Lorem ipsum dolor sip amap velor utopia udor
+                                    </div>
+                                    <div class="news_resume">
+                                        O fragmento textual basicamente é uma parte do texto, uma frase ou parágrafo, que constitui o texto completo. O fragmento é uma parte constitutiva de um todo. Assim, pode se referir ao fragmento de um texto, um elemento sólido, um tema musical, etc.
+                                    </div>
+                                    <div class="news_data">
+                                        <a href = "https://wa.me/5521977433650?text=%20Eu quero!%20" target="_blank">
+                                            <div class="comprar"> Comprar </div>
+                                        </a>
+                                    </div>
+                                </a>
+                            </article>
+                            <article>
+                                <a href="">
+                                    <div class="news_data">
+                                        <div class="news_posted_at">Últimos Modelos</div>
+                                        <div class="news_comments">2</div>
+                                    </div>
+                                    <div class="news_thumb">
+                                        <img src="assets/images/DTleticia.jpeg"/>
+                                    </div>
+                                    <div class="news_title">
+                                        Lorem ipsum dolor sip amap velor utopia udor
+                                    </div>
+                                    <div class="news_resume">
+                                        O fragmento textual basicamente é uma parte do texto, uma frase ou parágrafo, que constitui o texto completo. O fragmento é uma parte constitutiva de um todo. Assim, pode se referir ao fragmento de um texto, um elemento sólido, um tema musical, etc.
+                                    </div>
+                                    <a href = "https://wa.me/5521977433650?text=%20Eu quero!%20" target="_blank">
+                                        <div class="comprar"> Comprar </div>
+                                    </a>
+                                </a>
+                            </article>
+                            <article>
+                                <a href="">
+                                    <div class="news_data">
+                                        <div class="news_posted_at">Últimos Modelos</div>
+                                        <div class="news_comments">3</div>
+                                    </div>
+                                    <div class="news_thumb">
+                                        <img src="assets/images/dtFn.jpeg"/>
+                                    </div>
+                                    <div class="news_title">
+                                        Lorem ipsum dolor sip amap velor utopia udor
+                                    </div>
+                                    <div class="news_resume">
+                                        O fragmento textual basicamente é uma parte do texto, uma frase ou parágrafo, que constitui o texto completo. O fragmento é uma parte constitutiva de um todo. Assim, pode se referir ao fragmento de um texto, um elemento sólido, um tema musical, etc.
+                                    </div>
+                                    <a href = "https://wa.me/5521977433650?text=%20Eu quero!%20" target="_blank">
+                                        <div class="comprar"> Comprar </div>
+                                    </a>
+                                </a>
+                            </article>
+                            <!--<article>
+                                <a href="">
+                                    <div class="news_data">
+                                        <div class="news_posted_at">25 Março 23</div>
+                                        <div class="news_comments">2</div>
+                                    </div>
+                                    <div class="news_thumb">
+                                        <img src="assets/images/dentistabanco.jpeg"/>
+                                    </div>
+                                    <div class="news_title">
+                                        Lorem ipsum dolor sip amap velor utopia udor
+                                    </div>
+                                    <div class="news_resume">
+                                        O fragmento textual basicamente é uma parte do texto, uma frase ou parágrafo, que constitui o texto completo. O fragmento é uma parte constitutiva de um todo. Assim, pode se referir ao fragmento de um texto, um elemento sólido, um tema musical, etc.
+                                    </div>
+                                    <a href = "https://wa.me/5521977433650?text=%20Eu quero!%20">
+                                        <div class="comprar"> Comprar </div>
+                                    </a>
+                                </a>
+                            </article> -->
+                        </div>
+                    </div>
+                </section>
+                <!--<aside>
+                    </div>
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Entre em contato conosco!</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                            <div class="contact_text">Lorem ipsum color menangis teofid sacronias polarium clank point flakon singiun</div>
+                            <div class="container_contacts">
+                                <div class="contacts">
+                                    <img class="img_contacts" src="assets/images/whatsapp_icon.jpg"/>
+                                    <div class="contact_info">WhatsApp: <strong>(+55 21) 97218-2703</strong></div>
+                                </div>
+                                <div class="contacts">
+                                    <img class="img_contacts" src="assets/images/Instagram_icon.png.webp"/>
+                                    <div class="contact_info">Instagram: <a href="">@Duomochoselas</a></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </aside> -->
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="banner1">
+                    <a href="">
+                        <div class="banner-title">Powered by</div>
+                        <div class="banner-desc">Caramelo soluções</div>
+                    </a>
+                </div>
+                <!--<div class="banner2">
+                    <a href="">
+                        <div class="banner-title">Telefone</div>
+                        <div class="banner-desc">(+55 21) 98320-7007</div>
+                    </a>
+                </div>-->
+                <div class="banner3">
+                    <a href="">
+                        <div class="banner-title">Entre em contato</div>
+                        <div class="banner-desc">Caramelosolucoes@caramelo.com.br</div>
+                    </a>
+     <!--  </div>
+                <div class="footer_area">
+                    <div class="footer_area_item">
+                        <div class="widget">
+                            <div class="widget_title">
+                                <div class="widget_title_text">Endereço</div>
+                                <div class="widget_title_bar"></div>
+                            </div>
+                            <div class="widget_body flex">
+                                ,,,
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer_area_item">
+                        <div class="widget">
+                            <div class="widget_title">
+                                <div class="widget_title_text">Latest Posts</div>
+                                <div class="widget_title_bar"></div>
+                            </div>
+                            <div class="widget_body flex">
+                                ,,,
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer_area_item">
+                        <div class="widget">
+                            <div class="widget_title">
+                                <div class="widget_title_text">Latest Tweets</div>
+                                <div class="widget_title_bar"></div>
+                            </div>
+                            <div class="widget_body flex">
+                                ,,,
+                            </div>
+                        </div>
+                    </div>
+         </div> -->
+                <div class="footer_copy">
+                    Tel.: (+55 21) 98320-7007
+                </div>
+                <div class="footer_copy">
+                    Copyright - Todos os direitos reservados.
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

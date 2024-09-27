@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="assets/css/catalogo.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,400&display=swap");
+    </style>
+
+    <title>CATÁLOGO - DUO MOCHO</title>
+
+    <script>
+      window.onload = function() {
+            document.querySelector(".menuMobile").addEventListener("click", function() {
+                if(document.querySelector(".menu nav ul").style.display == 'flex') {
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                } else {
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+            });
+        };
+    </script>
+  </head>
+
+  <body>
+    <header>
+    <div class="container">
+      <div class="logo">
+        <a href="index.html">
+          <img
+            class="img-logo"
+            src="assets/images/logo_equilibrium.jpg.JPG"
+            width="180"
+            height="180"
+          />
+        </a>
+        <!-- <p class="texto-logo">DUO MOCHO SELAS</p> -->
+      </div>
+      <div class="menu">
+        <nav>
+          <div class="menuMobile">
+            <div class="mm_line"></div>
+            <div class="mm_line"></div>
+            <div class="mm_line"></div>
+          </div>
+          <ul>
+            <li id="home"><a href="index.html">HOME</a></li>
+            <li id="produtos"><a href="catalogo.html">PRODUTOS</a></li>
+            <li id="beneficios"><a href = 'beneficios.html'>BENEFÍCIOS</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    </header>
+    <!-- BOTAO WHATSAPP-->
+    <div class="buttonzap">
+      <a
+        href="https://api.whatsapp.com/send?phone=5521977433650&"
+        class="icon"
+        target="_blank"
+        ><i class="fab fa-whatsapp"></i
+      ></a>
+      <!-- FIM BOTAO WHATSAPP-->
+    </div>
+    <section class="flex">
+      <div>
+        <img src="./assets/images/DTleticia.jpeg" />
+        <p class="texto-cadeira">
+          Produtos personalizados
+        </p>
+        <a href="https://wa.me/5521977433650?text=%20Eu quero essa cadeira!%20" target="blank"
+          ><button class="btn-comprar">comprar</button></a
+        >
+      </div>
+
+      <div>
+        <img src="./assets/images/DTleticia.jpeg" />
+        <p class="texto-cadeira">
+          Produtos personalizados
+        </p>
+        <a href="https://wa.me/5521977433650?text=%20Eu quero essa cadeira!%20" target="blank"
+          ><button class="btn-comprar">comprar</button></a
+        >
+      </div>
+
+      <div>
+        <img src="./assets/images/DTleticia.jpeg" />
+        <p class="texto-cadeira">
+          Produtos personalizados
+        </p>
+        <a href="https://wa.me/5521977433650?text=%20Eu quero essa cadeira!%20" target="blank"
+          ><button class="btn-comprar">comprar</button></a
+        >
+      </div>
+
+      <div>
+        <img src="./assets/images/DTleticia.jpeg" />
+        <p class="texto-cadeira">
+          Produtos personalizados
+        </p>
+        <a href="https://wa.me/5521977433650?text=%20Eu quero essa cadeira!%20" target="blank"
+          ><button class="btn-comprar">comprar</button></a
+        >
+      </div>
+
+      <div>
+        <img src="./assets/images/DTleticia.jpeg" />
+        <p class="texto-cadeira">
+          Produtos personalizados
+        </p>
+        <a href="https://wa.me/5521977433650?text=%20Eu quero essa cadeira!%20" target="blank"
+          ><button class="btn-comprar">comprar</button></a
+        >
+      </div>
+
+      <div>
+        <img src="./assets/images/DTleticia.jpeg" />
+        <p class="texto-cadeira">
+          Produtos personalizados
+        </p>
+        <a href="https://wa.me/5521977433650?text=%20Eu quero essa cadeira!%20" target="blank"
+          ><button class="btn-comprar">comprar</button></a
+        >
+      </div>
+    </section>
+    <footer>
+            <div class="container">
+                <div class="banner1">
+                    <a href="">
+                        <div class="banner-title">Powered by</div>
+                        <div class="banner-desc">Caramelo soluções</div>
+                    </a>
+                </div>
+                <!--<div class="banner2">
+                    <a href="">
+                        <div class="banner-title">Telefone</div>
+                        <div class="banner-desc">(+55 21) 98320-7007</div>
+                    </a>
+                </div>-->
+                <div class="banner3">
+                    <a href="">
+                        <div class="banner-title">Entre em contato</div>
+                        <div class="banner-desc">Caramelosolucoes@caramelo.com.br</div>
+                    </a>
+                    <div class="footer_copy">
+                      Tel.: (+55 21) 98320-7007
+                  </div>
+                <div class="footer_copy">
+                    Copyright - Todos os direitos reservados.
+                </div>
+            </div>
+        </footer>
+  </body>
+</html>
